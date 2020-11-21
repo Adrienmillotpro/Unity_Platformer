@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc38003c0e0db6641a4762d4f392de52, type: 3}
+  m_Name: New Prefab Palette
+  m_EditorClassIdentifier: 
+  prefabs:
+  - gameObject: {fileID: 919132149155446097, guid: be8331e5d2fac5b46aa8f96e4bbbe042, type: 3}
+    settings:
+      m_Strength: 1
+      m_RotationRangeMin: {x: 250, y: 16.139244, z: 45}
+      m_RotationRangeMax: {x: 250, y: -28.860756, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 0.47297287, y: 1.1486487}
+      m_UniformBool: 1
+      m_XRotationBool: 1
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: plantFern_002_grp
+  - gameObject: {fileID: 919132149155446097, guid: aef1af0c315a7754dbc1fdbfc14ae3b3, type: 3}
+    settings:
+      m_Strength: 1
+      m_RotationRangeMin: {x: 250, y: 0, z: 0}
+      m_RotationRangeMax: {x: 250, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 1
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: plant_001_grp
+  - gameObject: {fileID: 919132149155446097, guid: c43cdc0d2ff29fc46820fb86c1f9ab95, type: 3}
+    settings:
+      m_Strength: 1
+      m_RotationRangeMin: {x: 250, y: 0, z: 0}
+      m_RotationRangeMax: {x: 250, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 1
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: plant_002_grp
+  - gameObject: {fileID: 919132149155446097, guid: d14e32db054044d489a5cc9edad5d048, type: 3}
+    settings:
+      m_Strength: 1
+      m_RotationRangeMin: {x: 250, y: 0, z: 0}
+      m_RotationRangeMax: {x: 250, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 1
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: plant_003_grp
+  - gameObject: {fileID: 919132149155446097, guid: 93ca07a250e68744095a1cffecd03c3c, type: 3}
+    settings:
+      m_Strength: 1
+      m_RotationRangeMin: {x: 250, y: 0, z: 0}
+      m_RotationRangeMax: {x: 250, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 1
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: plantFern_001_grp
