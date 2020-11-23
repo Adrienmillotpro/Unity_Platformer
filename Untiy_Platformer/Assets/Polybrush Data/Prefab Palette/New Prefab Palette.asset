@@ -16,8 +16,8 @@ MonoBehaviour:
   - gameObject: {fileID: 919132149155446097, guid: be8331e5d2fac5b46aa8f96e4bbbe042, type: 3}
     settings:
       m_Strength: 1
-      m_RotationRangeMin: {x: 250, y: 16.139244, z: 45}
-      m_RotationRangeMax: {x: 250, y: -28.860756, z: 0}
+      m_RotationRangeMin: {x: 270, y: 16.139244, z: 45}
+      m_RotationRangeMax: {x: 270, y: -28.860756, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
       m_ScaleRangeMax: {x: 1, y: 1, z: 1}
       m_UniformScale: {x: 0.47297287, y: 1.1486487}
@@ -32,8 +32,8 @@ MonoBehaviour:
   - gameObject: {fileID: 919132149155446097, guid: aef1af0c315a7754dbc1fdbfc14ae3b3, type: 3}
     settings:
       m_Strength: 1
-      m_RotationRangeMin: {x: 250, y: 0, z: 0}
-      m_RotationRangeMax: {x: 250, y: 0, z: 0}
+      m_RotationRangeMin: {x: 270, y: 0, z: 0}
+      m_RotationRangeMax: {x: 270, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
       m_ScaleRangeMax: {x: 1, y: 1, z: 1}
       m_UniformScale: {x: 1, y: 1}
@@ -48,8 +48,8 @@ MonoBehaviour:
   - gameObject: {fileID: 919132149155446097, guid: c43cdc0d2ff29fc46820fb86c1f9ab95, type: 3}
     settings:
       m_Strength: 1
-      m_RotationRangeMin: {x: 250, y: 0, z: 0}
-      m_RotationRangeMax: {x: 250, y: 0, z: 0}
+      m_RotationRangeMin: {x: 270, y: 0, z: 0}
+      m_RotationRangeMax: {x: 270, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
       m_ScaleRangeMax: {x: 1, y: 1, z: 1}
       m_UniformScale: {x: 1, y: 1}
@@ -64,8 +64,8 @@ MonoBehaviour:
   - gameObject: {fileID: 919132149155446097, guid: d14e32db054044d489a5cc9edad5d048, type: 3}
     settings:
       m_Strength: 1
-      m_RotationRangeMin: {x: 250, y: 0, z: 0}
-      m_RotationRangeMax: {x: 250, y: 0, z: 0}
+      m_RotationRangeMin: {x: 270, y: 0, z: 0}
+      m_RotationRangeMax: {x: 270, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
       m_ScaleRangeMax: {x: 1, y: 1, z: 1}
       m_UniformScale: {x: 1, y: 1}
@@ -80,8 +80,8 @@ MonoBehaviour:
   - gameObject: {fileID: 919132149155446097, guid: 93ca07a250e68744095a1cffecd03c3c, type: 3}
     settings:
       m_Strength: 1
-      m_RotationRangeMin: {x: 250, y: 0, z: 0}
-      m_RotationRangeMax: {x: 250, y: 0, z: 0}
+      m_RotationRangeMin: {x: 270, y: 0, z: 0}
+      m_RotationRangeMax: {x: 270, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
       m_ScaleRangeMax: {x: 1, y: 1, z: 1}
       m_UniformScale: {x: 1, y: 1}
@@ -93,3 +93,51 @@ MonoBehaviour:
       m_YScaleBool: 0
       m_ZScaleBool: 0
     name: plantFern_001_grp
+  - gameObject: {fileID: 919132149155446097, guid: 12b0c7e23aeb9ae4f89a30efdd87b9c6, type: 3}
+    settings:
+      m_Strength: 1
+      m_RotationRangeMin: {x: 270, y: 0, z: 0}
+      m_RotationRangeMax: {x: 270, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 0.73684204, y: 0.73684204}
+      m_UniformBool: 1
+      m_XRotationBool: 1
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: tree_002_grp
+  - gameObject: {fileID: 919132149155446097, guid: 850dccccbc8189049a22e1f6c160aaaa, type: 3}
+    settings:
+      m_Strength: 1
+      m_RotationRangeMin: {x: 270, y: 0, z: 0}
+      m_RotationRangeMax: {x: 270, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 0.60784316, y: 0.99483997}
+      m_UniformBool: 1
+      m_XRotationBool: 1
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: tree_001_grp
+  - gameObject: {fileID: 919132149155446097, guid: cd039ade6f59f9f4ba52ed483ae40a50, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 1
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: mushroom_001_grp
