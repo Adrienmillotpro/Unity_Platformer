@@ -6,15 +6,7 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class PIllar_Script : MonoBehaviour
 {
-    public Transform Parent;
-    [Space(3)]
-    [Header("Bricks Links")]
-    public GameObject Brick_1;
-    public GameObject Brick_2;
-    public GameObject Brick_3;
-    public GameObject Brick_4;
-    public GameObject Brick_5;
-    public GameObject Brick_6;
+    public Transform Parent;    
     [Space(3)]
     [Header("Pillar Pieces")]
     public GameObject Tower_Bottom;
@@ -25,8 +17,15 @@ public class PIllar_Script : MonoBehaviour
     public GameObject Square_Tower_Top;
 
 
+
+    public bool Square;
+
     [Space(3)]
-    [Header("Bricks")]
+    [Header("Size")]
+    [Range(0, 20)] public int Tower_Height;
+    [Space(3)]
+
+    [Header("Modifiers")]
     [Range(0, 100)] public int Brick1_Chance;
     [Range(0, 100)] public int Brick2_Chance;
     [Range(0, 100)] public int Brick3_Chance;
@@ -34,17 +33,6 @@ public class PIllar_Script : MonoBehaviour
     [Range(0, 100)] public int Brick5_Chance;
     [Range(0, 100)] public int Brick6_Chance;
     [Range(0, 100)] public int Empty_Chance;
-    public bool Square;
-
-    [Space(3)]
-    [Header("Parameters")]
-    public float Max_Rotation = 2;
-    public float Min_Rotation = -2;
-    public float Max_OffsetZ = 0;
-    public float Min_OffsetZ = -0.15f;
-    [Space(3)]
-    [Header("Size")]
-    [Range(0, 20)] public int Tower_Height;
     private int Size_Tower;
 
     private void OnValidate()
@@ -102,6 +90,15 @@ public class PIllar_Script : MonoBehaviour
             }
         }
     }
+
+    public void Randomize_Bricks() 
+    {
+        foreach (Transform child in Parent.transform) 
+        {            
+            child.gameObject.GetComponent<Pieces_Pillar>().Randomize_Total(Brick1_Chance, Brick2_Chance, Brick3_Chance, Brick4_Chance, Brick5_Chance, Brick6_Chance, Empty_Chance);
+        }
+    }
+
 
 
     public void Change_Size()
