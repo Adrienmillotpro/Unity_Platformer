@@ -14,11 +14,6 @@ public class Pillar_Editor : Editor
         {
             Script_Pillar.Change_Size();
         }
-
-        if (GUILayout.Button("Randomize"))
-        {
-            Script_Pillar.Randomize_Bricks();
-        }
     }
 
 }
