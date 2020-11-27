@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7644992352988910734}
   - component: {fileID: 2008043500008728247}
-  m_Layer: 0
+  - component: {fileID: 7116109712210634992}
+  m_Layer: 9
   m_Name: cave_large_wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,6 +48,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!64 &7116109712210634992
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2885426910051230348}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &1030055477570584183
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57,6 +72,22 @@ PrefabInstance:
     - target: {fileID: 3538609642187891468, guid: 112acc4acfc9826458872c5e737d357f, type: 3}
       propertyPath: m_Name
       value: cave_wall_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3538609642187891468, guid: 112acc4acfc9826458872c5e737d357f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105942438988242652, guid: 112acc4acfc9826458872c5e737d357f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5904612271020779571, guid: 112acc4acfc9826458872c5e737d357f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7328533787884148915, guid: 112acc4acfc9826458872c5e737d357f, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8966378228752178836, guid: 112acc4acfc9826458872c5e737d357f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -120,6 +151,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: cave_wall_001 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3538609642187891468, guid: 112acc4acfc9826458872c5e737d357f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105942438988242652, guid: 112acc4acfc9826458872c5e737d357f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5904612271020779571, guid: 112acc4acfc9826458872c5e737d357f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7328533787884148915, guid: 112acc4acfc9826458872c5e737d357f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 8966378228752178836, guid: 112acc4acfc9826458872c5e737d357f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30
@@ -181,6 +228,22 @@ PrefabInstance:
     - target: {fileID: 3538609642187891468, guid: 112acc4acfc9826458872c5e737d357f, type: 3}
       propertyPath: m_Name
       value: cave_wall_001 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3538609642187891468, guid: 112acc4acfc9826458872c5e737d357f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105942438988242652, guid: 112acc4acfc9826458872c5e737d357f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5904612271020779571, guid: 112acc4acfc9826458872c5e737d357f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7328533787884148915, guid: 112acc4acfc9826458872c5e737d357f, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8966378228752178836, guid: 112acc4acfc9826458872c5e737d357f, type: 3}
       propertyPath: m_LocalPosition.x
