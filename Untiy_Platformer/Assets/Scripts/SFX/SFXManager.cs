@@ -4,22 +4,17 @@ using UnityEngine;
 
 public class SFXManager : MonoBehaviour
 {
-    private enum SongPhase{
-        Null,
-        First,
-        Second,
-        Third,
-    }
-    public GameObject[] SFXTrigger;
-    public AudioClip[] audioTracks;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] [Range(0f, 10f)] private float trackTransitionSpeed;
+    public AudioSource[] additionalAudioSources;
 
-
-    public void ManageTracks(AudioClip audioTrack){
-        
+    public void SortSources(int sfxTriggerID, float desiredVolume){
+        for(int i = 0; i < additionalAudioSources.Length; i++){
+            if(i == sfxTriggerID){
+                ManageVolume(additionalAudioSources[i], desiredVolume);
+            }
+        }
+    }
+    public void ManageVolume(AudioSource audioSource, float desiredVolume){
+        audioSource.volume = Mathf.Lerp(audioSource.volume, desiredVolume, trackTransitionSpeed * Time.deltaTime);
     }
 }
