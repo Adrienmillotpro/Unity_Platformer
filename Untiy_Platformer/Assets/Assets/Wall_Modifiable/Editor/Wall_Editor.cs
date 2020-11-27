@@ -1,55 +1,60 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-
-[CustomEditor(typeof(Randomizer_Wall))]
+[CustomEditor(typeof(Wall_Script))]
 public class Wall_Editor : Editor
 {
     public override void OnInspectorGUI()
     {
-        base.OnInspectorGUI();        
-        Randomizer_Wall Rando_Script = (Randomizer_Wall)target;     
+        base.OnInspectorGUI();
+        Wall_Script Wall_Script_Ref = (Wall_Script)target;
 
-        if (GUILayout.Button("Randomize Bricks")) 
+        if (GUILayout.Button("Randomize Bricks"))
         {
-            Rando_Script.Randomize_Layout();
+            Wall_Script_Ref.Randomize_The_Bricks();
         }
-         GUILayout.BeginHorizontal();
+        if (GUILayout.Button("Set_Wall"))
+        {
+            Wall_Script_Ref.Set_Wall();
+        }
+
+        GUILayout.BeginHorizontal();
 
         if (GUILayout.Button("<"))
-        {
-            Rando_Script.Left_Pressed_Wall();
+        {            
+            Wall_Script_Ref.Left_Pressed_Wall();            
         }
 
-        GUILayout.Button(Rando_Script.Parent.GetChild(0).name.Substring(0, 5));
+        GUILayout.Button(Wall_Script_Ref.Parent.GetChild(0).name.Substring(0, 6));
 
         if (GUILayout.Button(">"))
-            
-        {
-            Rando_Script.Right_Pressed_Wall();
+        {            
+            Wall_Script_Ref.Right_Pressed_Wall();           
         }
 
-
         GUILayout.EndHorizontal();
-        
-        //--------------------------------------------------------------
 
         GUILayout.BeginHorizontal();
 
         if (GUILayout.Button("<"))
         {
-            Rando_Script.Left_Pressed_Type_Wall();
+            Wall_Script_Ref.Left_Pressed_Type_Wall();
         }
 
-        GUILayout.Button(Rando_Script.Wall_Type);
+        GUILayout.Button(Wall_Script_Ref.Wall_Type);
 
         if (GUILayout.Button(">"))
-
         {
-            Rando_Script.Right_Pressed_Type_Wall();
+            Wall_Script_Ref.Right_Pressed_Type_Wall();
         }
 
-
         GUILayout.EndHorizontal();
+
+
+        if (GUILayout.Button("Show all"))
+        {
+            Wall_Script_Ref.showall();
+        }
+        
     }
 }
