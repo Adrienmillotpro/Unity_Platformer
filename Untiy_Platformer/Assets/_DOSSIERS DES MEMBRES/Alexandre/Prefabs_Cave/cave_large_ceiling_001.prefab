@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4309263301547820406}
+  - component: {fileID: 2065649299}
   m_Layer: 9
   m_Name: cave_large_ceiling_001
   m_TagString: Untagged
@@ -34,6 +35,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &2065649299
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7182503959368403327}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &575351070017467181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41,6 +56,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4309263301547820406}
     m_Modifications:
+    - target: {fileID: 398411527192978546, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0ce8b2155f1de534cbda3002e2345b46, type: 2}
+    - target: {fileID: 3119204509115560362, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0ce8b2155f1de534cbda3002e2345b46, type: 2}
+    - target: {fileID: 4174029737399073999, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0ce8b2155f1de534cbda3002e2345b46, type: 2}
     - target: {fileID: 5168903681574315913, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.21
@@ -89,6 +116,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cave_ground_001
       objectReference: {fileID: 0}
+    - target: {fileID: 7558994786052165767, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0ce8b2155f1de534cbda3002e2345b46, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
 --- !u!4 &4631860119229568164 stripped
@@ -103,6 +134,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4309263301547820406}
     m_Modifications:
+    - target: {fileID: 398411527192978546, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0ce8b2155f1de534cbda3002e2345b46, type: 2}
+    - target: {fileID: 3119204509115560362, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0ce8b2155f1de534cbda3002e2345b46, type: 2}
+    - target: {fileID: 4174029737399073999, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0ce8b2155f1de534cbda3002e2345b46, type: 2}
     - target: {fileID: 5168903681574315913, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.21
@@ -151,6 +194,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cave_ground_001 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7558994786052165767, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0ce8b2155f1de534cbda3002e2345b46, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
 --- !u!4 &6235112405782894995 stripped
@@ -165,6 +212,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4309263301547820406}
     m_Modifications:
+    - target: {fileID: 398411527192978546, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0ce8b2155f1de534cbda3002e2345b46, type: 2}
+    - target: {fileID: 3119204509115560362, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0ce8b2155f1de534cbda3002e2345b46, type: 2}
+    - target: {fileID: 4174029737399073999, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0ce8b2155f1de534cbda3002e2345b46, type: 2}
     - target: {fileID: 5168903681574315913, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27
@@ -213,6 +272,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cave_ground_001 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7558994786052165767, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0ce8b2155f1de534cbda3002e2345b46, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
 --- !u!4 &7209632316252065640 stripped
@@ -227,6 +290,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4309263301547820406}
     m_Modifications:
+    - target: {fileID: 398411527192978546, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0ce8b2155f1de534cbda3002e2345b46, type: 2}
+    - target: {fileID: 3119204509115560362, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0ce8b2155f1de534cbda3002e2345b46, type: 2}
+    - target: {fileID: 4174029737399073999, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0ce8b2155f1de534cbda3002e2345b46, type: 2}
     - target: {fileID: 5168903681574315913, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27
@@ -275,6 +350,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cave_ground_001 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7558994786052165767, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0ce8b2155f1de534cbda3002e2345b46, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a399a639722b07e449b6c4515ce21f63, type: 3}
 --- !u!4 &3349842263508164876 stripped
