@@ -31,7 +31,7 @@ public class SFXTrigger : MonoBehaviour
 
                 case TuningMode.Null:
                 break;
-        }
+            }
             SendInfoToManager(triggerID, desiredVolume);
         }
     }
