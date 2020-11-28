@@ -12,20 +12,21 @@ public class SFXTrigger : MonoBehaviour
     [SerializeField] private int triggerID;
     [SerializeField] private TuningMode currentMode;
     [SerializeField] [Range (0f, 1f)] private float desiredHighVolume;
-    [SerializeField] [Range(0f, 1f)] private float desiredlowVolume;
+    [SerializeField] [Range(0f, 1f)] private float desiredLowVolume;
     private float desiredVolume;
 
     private void OnTriggerEnter(Collider other) {
 
         if(other.gameObject.tag == "Player"){
-            switch(currentMode){
+            // Debug.Log("Found ya!");
+            switch(this.currentMode){
                 case TuningMode.TurningUp:
                     desiredVolume = desiredHighVolume;
                     currentMode = TuningMode.TurningDown;
                 break;
 
                 case TuningMode.TurningDown:
-                    desiredVolume = desiredlowVolume;
+                    desiredVolume = desiredLowVolume;
                     currentMode = TuningMode.TurningUp;
                 break;
 
@@ -37,7 +38,8 @@ public class SFXTrigger : MonoBehaviour
     }
 
     private void SendInfoToManager(int ID, float desiredVolume){
-        SFXManager manager = GetComponent<SFXManager>();
+        // Debug.Log("Here's the ID I'm sending" + triggerID.ToString());
+        SFXManager manager = FindObjectOfType<SFXManager>();
         manager.SortSources(ID, desiredVolume);
     }
 

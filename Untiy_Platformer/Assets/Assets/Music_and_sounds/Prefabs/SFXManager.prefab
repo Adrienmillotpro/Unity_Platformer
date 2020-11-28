@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2376485324082193571}
-  - component: {fileID: 2376485324082193572}
   - component: {fileID: 2376485324082193570}
   - component: {fileID: 2154450522749532538}
   - component: {fileID: 5997468098693849436}
@@ -38,22 +37,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2376485324082193572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2376485324082193573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0075daeaeee6b944985a793e7f1a136, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioSources: []
-  SFXTrigger:
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &2376485324082193570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,14 +49,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0075daeaeee6b944985a793e7f1a136, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSources:
+  trackTransitionSpeed: 5
+  additionalAudioSources:
   - {fileID: 4409261965800662411}
   - {fileID: 2279393956832766064}
   - {fileID: 2880166736885075242}
-  SFXTrigger:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!82 &2154450522749532538
 AudioSource:
   m_ObjectHideFlags: 0
