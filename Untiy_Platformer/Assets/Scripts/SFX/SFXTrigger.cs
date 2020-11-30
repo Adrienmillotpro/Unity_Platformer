@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class SFXTrigger : MonoBehaviour
 {
+    private float playerEnterPosition;
+    private float playerExitPosition;
+
     private enum TuningMode{
         Null,
         TurningUp,
@@ -18,8 +21,23 @@ public class SFXTrigger : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
 
         if(other.gameObject.tag == "Player"){
-            // Debug.Log("Found ya!");
-            switch(this.currentMode){
+            Debug.Log("Found ya!");
+            playerEnterPosition = other.transform.position.x;
+        }
+    }
+
+    private void OnTriggerExit(Collider other) {
+        if(other.gameObject.tag == "Player"){
+            Debug.Log("Bye friend");
+            playerExitPosition = other.transform.position.x;
+            if (playerExitPosition != playerEnterPosition){
+                SortTuningMode();
+            }
+        }
+    }
+
+    private void SortTuningMode(){
+        switch(this.currentMode){
                 case TuningMode.TurningUp:
                     desiredVolume = desiredHighVolume;
                     currentMode = TuningMode.TurningDown;
@@ -34,11 +52,10 @@ public class SFXTrigger : MonoBehaviour
                 break;
             }
             SendInfoToManager(triggerID, desiredVolume);
-        }
     }
 
     private void SendInfoToManager(int ID, float desiredVolume){
-        // Debug.Log("Here's the ID I'm sending" + triggerID.ToString());
+        Debug.Log("Here's the ID I'm sending " + triggerID.ToString());
         SFXManager manager = FindObjectOfType<SFXManager>();
         manager.SortSources(ID, desiredVolume);
     }

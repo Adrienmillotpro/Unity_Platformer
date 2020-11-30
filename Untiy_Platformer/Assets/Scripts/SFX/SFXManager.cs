@@ -9,14 +9,15 @@ public class SFXManager : MonoBehaviour
     public AudioSource[] additionalAudioSources;
 
     public void SortSources(int sfxTriggerID, float desiredVolume){
-        Debug.Log(this.additionalAudioSources.Length);
+        // Debug.Log(this.additionalAudioSources.Length);
         for (int i = 0; i < this.additionalAudioSources.Length; i++){
             if (i == sfxTriggerID){
-                Debug.Log(i);
+                Debug.Log("this is my Index " + i);
                 ManageVolume(additionalAudioSources[i], desiredVolume);
             }
         }
     }
+    
     public void ManageVolume(AudioSource audioSource, float desiredVolume){
         audioSource.volume = desiredVolume;
     }
