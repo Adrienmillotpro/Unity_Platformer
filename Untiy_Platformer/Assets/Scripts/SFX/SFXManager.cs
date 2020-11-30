@@ -7,6 +7,8 @@ public class SFXManager : MonoBehaviour
 {
     [SerializeField] [Range(0f, 10f)] private float trackTransitionSpeed;
     public AudioSource[] additionalAudioSources;
+    public AnimationCurve curve; // curve for fancy tweening
+    public AudioSource source;
 
     public void SortSources(int sfxTriggerID, float desiredVolume){
         // Debug.Log(this.additionalAudioSources.Length);
@@ -17,9 +19,9 @@ public class SFXManager : MonoBehaviour
             }
         }
     }
-    
+
     public void ManageVolume(AudioSource audioSource, float desiredVolume){
-        audioSource.volume = desiredVolume;
+        audioSource.DOFade(desiredVolume, trackTransitionSpeed); // there's an error on my side, apparently VSC hates me, but it works just fine
     }
 
 }
