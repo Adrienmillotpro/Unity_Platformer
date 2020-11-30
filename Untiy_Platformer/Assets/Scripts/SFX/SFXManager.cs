@@ -7,8 +7,7 @@ public class SFXManager : MonoBehaviour
 {
     [SerializeField] [Range(0f, 10f)] private float trackTransitionSpeed;
     public AudioSource[] additionalAudioSources;
-    public AnimationCurve curve; // curve for fancy tweening
-    public AudioSource source;
+    // public AnimationCurve curve; // curve for fancy tweening
 
     public void SortSources(int sfxTriggerID, float desiredVolume){
         // Debug.Log(this.additionalAudioSources.Length);
